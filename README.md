@@ -14,7 +14,7 @@ API (https://alphacephei.com/vosk/) to edit a video using its text transcription
 * *Step 1* extract the text of a video:
 
 ```
-video_cutter$ python3 main.py -e fixture/Distance_d_un_point_a_une_droite_dans_le_plan.theora.ogv.480p.webm 
+video_cutter$ python3 main.py e fixture/Distance_d_un_point_a_une_droite_dans_le_plan.theora.ogv.480p.webm 
 LOG (VoskAPI:ReadDataFiles():model.cc:213) Decoding params beam=13 max-active=7000 lattice-beam=6
 ...
 LOG (VoskAPI:ReadDataFiles():model.cc:312) Loading CARPA model from models/fr/rescore/G.carpa
@@ -30,7 +30,7 @@ video_cutter$ nano fixture/Distance_d_un_point_a_une_droite_dans_le_plan.theora.
 * *Step 3* assemble the remainder into a new video:
 
 ```
-video_cutter$ python3 main.py -a fixture/Distance_d_un_point_a_une_droite_dans_le_plan.theora.ogv.480p.webm 
+video_cutter$ python3 main.py a fixture/Distance_d_un_point_a_une_droite_dans_le_plan.theora.ogv.480p.webm 
 ```
 
 ## Installation
