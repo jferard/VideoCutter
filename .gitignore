@@ -1,0 +1,6 @@
+venv
+fixture/*
+!fixture/Distance_d_un_point_a_une_droite_dans_le_plan.theora.ogv.480p.webm
+models
+.idea
+__pycache__
